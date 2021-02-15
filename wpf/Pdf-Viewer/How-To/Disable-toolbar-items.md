@@ -21,7 +21,7 @@ private void HideTextSearchTool()
 	//Get the instance of the toolbar using its template name.
 	DocumentToolbar toolbar = pdfViewer.Template.FindName("PART_Toolbar", pdfViewer) as DocumentToolbar;
 
-	//Get the instance of the open file button using its template name.
+	//Get the instance of the search text button using its template name.
 	Button textSearchButton = (Button)toolbar.Template.FindName("PART_ButtonTextSearch", toolbar);
 
 	//Set the visibility of the button to collapsed.
